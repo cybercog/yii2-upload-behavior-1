@@ -1,0 +1,22 @@
+{
+    "name": "outtree/yii2-upload-behavior",
+    "description": "Yii2 upload behavior with inputfile widget",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","upload","behavior"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Li Guangjie",
+            "email": "liguangjie@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yii-dream-team/yii2-upload-behavior": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "outtree\\uploadbehavior\\": ""
+        }
+    }
+}
